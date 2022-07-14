@@ -1,0 +1,36 @@
+.flex-all-center{
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    max-width: 91vw;
+    margin: auto;
+    background-color: white;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    overflow: auto;
+}
+.lines{
+    width: 100%;
+    text-align: center;
+    margin: 10px 10px;
+}
+.card-items{
+    margin: 10px 10px;
+    display: inline-flex;
+    flex-direction: column;
+    width: 15vw;
+}
+.card-items img{
+    width: 174px;
+    height: 180px;
+}
+/* .text-center{
+    text-align: center;
+} */
+.lines p:first-child{
+    font-weight: bold;
+}
